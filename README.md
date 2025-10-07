@@ -6,3 +6,8 @@ Configuração do MariaDB 11.8 para deploy no Railway.
 
 -   MARIADB_ROOT_PASSWORD
 -   MARIADB_DATABASE
+
+git init
+git add .
+git commit -m "⚡ perf: "
+git push -u origin main

@@ -7,8 +7,5 @@ ENV MYSQL_DATABASE=${MARIADB_DATABASE:-railway}
 # Expõe a porta padrão do MariaDB
 EXPOSE 3306
 
-# Volume para persistência
-VOLUME /var/lib/mysql
-
 # Comando para iniciar o MariaDB
 CMD ["mariadbd"]
